@@ -12,11 +12,11 @@ int n, last;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 last = n % 10;
-if (last>5)
+if (last > 5)
 {
 printf("%d is positive\n", n);
 }
-else if (last<6 && last!=0)
+else if (last < 6 && last != 0)
 {
 printf("%d is negative\n", n);
 }

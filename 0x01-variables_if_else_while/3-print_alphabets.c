@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-char c = a;
+char c = 'a';
 int i;
 
 for (i = 0; i < 26; i++)

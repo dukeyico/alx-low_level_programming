@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-	char c = 'a';
-	int i = 0;
+char c = a;
+int i = 0;
 
-	while (i < 26)
-	{
-		putchar(c + i);
-		i++;
-	}
-	putchar(10);
-	return (0);
+while (i < 26)
+{
+putchar(c + i);
+i++;
+}
+putchar(10);
+return (0);
 }

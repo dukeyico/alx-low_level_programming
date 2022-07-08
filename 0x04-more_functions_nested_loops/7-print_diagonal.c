@@ -19,7 +19,7 @@ _putchar(' ');
 }
 else
 {
-_putchar('\');
+_putchar('\\');
 }
 }
 if (i == n)

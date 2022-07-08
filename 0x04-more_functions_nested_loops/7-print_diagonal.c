@@ -1,4 +1,4 @@
-#include "main.h"
+#include main.h
 /**
  * print_diagonal - draw a diagonal line
  * @n: number of times the '\' char is printed
@@ -19,7 +19,7 @@ _putchar(' ');
 }
 else
 {
-_putchar('\\');
+_putchar('\');
 }
 }
 if (i == n)

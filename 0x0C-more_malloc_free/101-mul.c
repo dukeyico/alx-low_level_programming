@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include main.h
+#include "main.h"
 /**
  * is_digit - checks if a string contains a non-digit char
  * @s: string to be evaluated
@@ -38,7 +38,7 @@ return (i);
  */
 void errors(void)
 {
-printf(Errorn);
+printf("Error\n");
 exit(98);
 }
 /**
